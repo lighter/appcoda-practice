@@ -1,0 +1,426 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		EC3C84161A6BF26F0085FC65 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC3C84151A6BF26F0085FC65 /* AppDelegate.swift */; };
+		EC3C841B1A6BF2700085FC65 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EC3C84191A6BF2700085FC65 /* Main.storyboard */; };
+		EC3C841D1A6BF2700085FC65 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EC3C841C1A6BF2700085FC65 /* Images.xcassets */; };
+		EC3C84201A6BF2700085FC65 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = EC3C841E1A6BF2700085FC65 /* LaunchScreen.xib */; };
+		EC3C842C1A6BF2710085FC65 /* AppCodaPractice2Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC3C842B1A6BF2710085FC65 /* AppCodaPractice2Tests.swift */; };
+		EC3C84361A6BFF3C0085FC65 /* RestaurantTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC3C84351A6BFF3C0085FC65 /* RestaurantTableViewController.swift */; };
+		EC634D8C1A99921F006347BA /* CustomTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC634D8B1A99921F006347BA /* CustomTableViewCell.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		EC3C84261A6BF2710085FC65 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EC3C84081A6BF26F0085FC65 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EC3C840F1A6BF26F0085FC65;
+			remoteInfo = AppCodaPractice2;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		EC3C84101A6BF26F0085FC65 /* AppCodaPractice2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AppCodaPractice2.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		EC3C84141A6BF26F0085FC65 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EC3C84151A6BF26F0085FC65 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		EC3C841A1A6BF2700085FC65 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		EC3C841C1A6BF2700085FC65 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		EC3C841F1A6BF2700085FC65 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		EC3C84251A6BF2710085FC65 /* AppCodaPractice2Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AppCodaPractice2Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		EC3C842A1A6BF2710085FC65 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EC3C842B1A6BF2710085FC65 /* AppCodaPractice2Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppCodaPractice2Tests.swift; sourceTree = "<group>"; };
+		EC3C84351A6BFF3C0085FC65 /* RestaurantTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RestaurantTableViewController.swift; sourceTree = "<group>"; };
+		EC634D8B1A99921F006347BA /* CustomTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomTableViewCell.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EC3C840D1A6BF26F0085FC65 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EC3C84221A6BF2710085FC65 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		EC3C84071A6BF26F0085FC65 = {
+			isa = PBXGroup;
+			children = (
+				EC3C84121A6BF26F0085FC65 /* AppCodaPractice2 */,
+				EC3C84281A6BF2710085FC65 /* AppCodaPractice2Tests */,
+				EC3C84111A6BF26F0085FC65 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		EC3C84111A6BF26F0085FC65 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EC3C84101A6BF26F0085FC65 /* AppCodaPractice2.app */,
+				EC3C84251A6BF2710085FC65 /* AppCodaPractice2Tests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EC3C84121A6BF26F0085FC65 /* AppCodaPractice2 */ = {
+			isa = PBXGroup;
+			children = (
+				EC3C84151A6BF26F0085FC65 /* AppDelegate.swift */,
+				EC3C84351A6BFF3C0085FC65 /* RestaurantTableViewController.swift */,
+				EC3C84191A6BF2700085FC65 /* Main.storyboard */,
+				EC634D8B1A99921F006347BA /* CustomTableViewCell.swift */,
+				EC3C841C1A6BF2700085FC65 /* Images.xcassets */,
+				EC3C841E1A6BF2700085FC65 /* LaunchScreen.xib */,
+				EC3C84131A6BF26F0085FC65 /* Supporting Files */,
+			);
+			path = AppCodaPractice2;
+			sourceTree = "<group>";
+		};
+		EC3C84131A6BF26F0085FC65 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				EC3C84141A6BF26F0085FC65 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		EC3C84281A6BF2710085FC65 /* AppCodaPractice2Tests */ = {
+			isa = PBXGroup;
+			children = (
+				EC3C842B1A6BF2710085FC65 /* AppCodaPractice2Tests.swift */,
+				EC3C84291A6BF2710085FC65 /* Supporting Files */,
+			);
+			path = AppCodaPractice2Tests;
+			sourceTree = "<group>";
+		};
+		EC3C84291A6BF2710085FC65 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				EC3C842A1A6BF2710085FC65 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EC3C840F1A6BF26F0085FC65 /* AppCodaPractice2 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EC3C842F1A6BF2710085FC65 /* Build configuration list for PBXNativeTarget "AppCodaPractice2" */;
+			buildPhases = (
+				EC3C840C1A6BF26F0085FC65 /* Sources */,
+				EC3C840D1A6BF26F0085FC65 /* Frameworks */,
+				EC3C840E1A6BF26F0085FC65 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AppCodaPractice2;
+			productName = AppCodaPractice2;
+			productReference = EC3C84101A6BF26F0085FC65 /* AppCodaPractice2.app */;
+			productType = "com.apple.product-type.application";
+		};
+		EC3C84241A6BF2710085FC65 /* AppCodaPractice2Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EC3C84321A6BF2710085FC65 /* Build configuration list for PBXNativeTarget "AppCodaPractice2Tests" */;
+			buildPhases = (
+				EC3C84211A6BF2710085FC65 /* Sources */,
+				EC3C84221A6BF2710085FC65 /* Frameworks */,
+				EC3C84231A6BF2710085FC65 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EC3C84271A6BF2710085FC65 /* PBXTargetDependency */,
+			);
+			name = AppCodaPractice2Tests;
+			productName = AppCodaPractice2Tests;
+			productReference = EC3C84251A6BF2710085FC65 /* AppCodaPractice2Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EC3C84081A6BF26F0085FC65 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0610;
+				ORGANIZATIONNAME = Lighter;
+				TargetAttributes = {
+					EC3C840F1A6BF26F0085FC65 = {
+						CreatedOnToolsVersion = 6.1.1;
+					};
+					EC3C84241A6BF2710085FC65 = {
+						CreatedOnToolsVersion = 6.1.1;
+						TestTargetID = EC3C840F1A6BF26F0085FC65;
+					};
+				};
+			};
+			buildConfigurationList = EC3C840B1A6BF26F0085FC65 /* Build configuration list for PBXProject "AppCodaPractice2" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = EC3C84071A6BF26F0085FC65;
+			productRefGroup = EC3C84111A6BF26F0085FC65 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EC3C840F1A6BF26F0085FC65 /* AppCodaPractice2 */,
+				EC3C84241A6BF2710085FC65 /* AppCodaPractice2Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EC3C840E1A6BF26F0085FC65 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EC3C841B1A6BF2700085FC65 /* Main.storyboard in Resources */,
+				EC3C84201A6BF2700085FC65 /* LaunchScreen.xib in Resources */,
+				EC3C841D1A6BF2700085FC65 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EC3C84231A6BF2710085FC65 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EC3C840C1A6BF26F0085FC65 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EC634D8C1A99921F006347BA /* CustomTableViewCell.swift in Sources */,
+				EC3C84361A6BFF3C0085FC65 /* RestaurantTableViewController.swift in Sources */,
+				EC3C84161A6BF26F0085FC65 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EC3C84211A6BF2710085FC65 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EC3C842C1A6BF2710085FC65 /* AppCodaPractice2Tests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		EC3C84271A6BF2710085FC65 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EC3C840F1A6BF26F0085FC65 /* AppCodaPractice2 */;
+			targetProxy = EC3C84261A6BF2710085FC65 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		EC3C84191A6BF2700085FC65 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EC3C841A1A6BF2700085FC65 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		EC3C841E1A6BF2700085FC65 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EC3C841F1A6BF2700085FC65 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		EC3C842D1A6BF2710085FC65 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		EC3C842E1A6BF2710085FC65 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EC3C84301A6BF2710085FC65 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = AppCodaPractice2/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		EC3C84311A6BF2710085FC65 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = AppCodaPractice2/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		EC3C84331A6BF2710085FC65 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = AppCodaPractice2Tests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AppCodaPractice2.app/AppCodaPractice2";
+			};
+			name = Debug;
+		};
+		EC3C84341A6BF2710085FC65 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = AppCodaPractice2Tests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AppCodaPractice2.app/AppCodaPractice2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EC3C840B1A6BF26F0085FC65 /* Build configuration list for PBXProject "AppCodaPractice2" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EC3C842D1A6BF2710085FC65 /* Debug */,
+				EC3C842E1A6BF2710085FC65 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EC3C842F1A6BF2710085FC65 /* Build configuration list for PBXNativeTarget "AppCodaPractice2" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EC3C84301A6BF2710085FC65 /* Debug */,
+				EC3C84311A6BF2710085FC65 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EC3C84321A6BF2710085FC65 /* Build configuration list for PBXNativeTarget "AppCodaPractice2Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EC3C84331A6BF2710085FC65 /* Debug */,
+				EC3C84341A6BF2710085FC65 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EC3C84081A6BF26F0085FC65 /* Project object */;
+}
